@@ -1,0 +1,33 @@
+.greyed-out{
+    filter: grayscale(100%);
+    pointer-events: none !important;
+    color: gray;
+}
+
+.controls{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: #e6e8ec;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item{
+    margin: 0 35px;
+}
+
+a.flex-item:hover{
+    cursor: pointer;
+    color: #203c84;
+}
+
+@media only screen and (max-width : 992px) {
+
+    .controls {
+        width: 100vw;
+    }
+
+}

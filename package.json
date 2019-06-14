@@ -1,0 +1,25 @@
+{
+  "name": "es6-agora-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "agora-rtc-sdk": "^2.6.1"
+  },
+  "devDependencies": {
+    "@pwa/manifest": "^1.1.0",
+    "fuse-box": "^3.7.1",
+    "terser": "^4.0.0",
+    "typescript": "^3.5.1",
+    "uglify-js": "^3.6.0",
+    "workbox-build": "^4.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fuse.js",
+    "build": "node fuse.js build",
+    "create-cert": "mkcert example.org localhost 127.0.0.1 ::1"
+  },
+  "author": "",
+  "license": "ISC"
+}

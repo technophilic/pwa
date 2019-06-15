@@ -17,8 +17,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node fuse.js",
-    "build": "node fuse.js build",
-    "create-cert": "mkcert example.org localhost 127.0.0.1 ::1"
+    "build": "node fuse.js build"
   },
   "author": "",
   "license": "ISC"

@@ -59,7 +59,7 @@ export default function video(client) {
 
     let localStream,resolve;
 
-    client.init("6a6faf60981942e98d234a18a4f5313d", function () {
+    client.init("<-------App ID here---------->", function () {
         console.log("AgoraRTC client initialized");
     },handleFail);
 

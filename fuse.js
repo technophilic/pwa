@@ -53,6 +53,7 @@ fc.then(()=>{
 
 pwaManifest({
     name: 'Agora Video Call',
+    short_name: 'Agora PWA',
     start_url: '/index.html',
     display: 'standalone',
     icons: [{
@@ -64,7 +65,6 @@ pwaManifest({
         "sizes": "512x512",
         "type": "image/png"
     }],
-    // short_name: 'Agora Video Call',
     // background_color: '#0400ef',
     theme_color: '#317EFB'
 }).then(manifest=>{

@@ -1,4 +1,4 @@
-#Agora PWA-demo
+# Agora PWA-demo
 
 icon customization: http://cthedot.de/icongen/
 
